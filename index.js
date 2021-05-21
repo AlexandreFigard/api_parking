@@ -37,5 +37,5 @@ app.put('/parkings/:id', (req,res) => {
 })
 
 app.listen(8082, () => {
-  console.log(" Serveur à l'écoute sur le port 8082");
+  console.log(" Serveur à l'écoute");
 })
