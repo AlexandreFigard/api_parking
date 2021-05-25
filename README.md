@@ -1,7 +1,3 @@
 # api_parking
--Ceci est une API de gestion de parking
--Gère la reservation et le nombre de places 
- 
-ddd
-dd
-jj
+ Ceci est une API de gestion de parking
+ Gère la reservation et le nombre de places 
