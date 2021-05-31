@@ -7,3 +7,7 @@ Gère la reservation et le nombre de places disponibles.
 ```nodejs
 node index.js
 ```
+or
+```nodejs
+nodemon index.js
+```
