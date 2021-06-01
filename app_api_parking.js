@@ -9,9 +9,9 @@ app.use(express.json());
 //  ROUTE 
 
 // route pour la liste des parkings
-//app.get('/parkings', (req,res) => {
- // res.status(200).json(parkings);
-//})
+app.get('/parkings', (req,res) => {
+ res.status(200).json(parkings);
+})
 
 // route id parkings
 app.get('/parkings/:id', (req,res) => {
@@ -37,5 +37,5 @@ app.put('/parkings/:id', (req,res) => {
 })
 
 app.listen(8083, () => {
-  console.log(" Serveur à l'écoute ");
+  console.log(" Serveur à l'écoute !!! ");
 })
