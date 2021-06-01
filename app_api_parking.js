@@ -9,16 +9,16 @@ app.use(express.json());
 //  ROUTE 
 
 // route pour la liste des parkings
-app.get('/parkings', (req,res) => {
-  res.status(200).json(parkings);
-})
+//app.get('/parkings', (req,res) => {
+ // res.status(200).json(parkings);
+//})
 
 // route id parkings
 app.get('/parkings/:id', (req,res) => {
     const id = parseInt(req.params.id); // Convertion en nombre
     const parking = parkings.find(parking => parking.id === id);
     res.status(200).json(parking);
-}
+})
 
 // route post parking
 app.post('/parkings', (req,res) => {
