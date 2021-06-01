@@ -6,7 +6,8 @@ const parkings = require('./parkings.json');
 //MIDDLEWARE (interprête)
 app.use(express.json());
  
-//  ROUTE
+//  ROUTE 
+
 // route pour la liste des parkings
 app.get('/parkings', (req,res) => {
   res.status(200).json(parkings);
