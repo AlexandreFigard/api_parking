@@ -8,11 +8,10 @@ app.use(express.json());
  
 
 //  ROUTE 
-
 //route pour la liste des parkings
 app.get('/parkings', (req,res) => {
  res.status(200).json(parkings);
-//})
+})
 
 // route id parkings
 app.get('/parkings/:id', (req,res) => {
