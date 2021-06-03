@@ -13,3 +13,11 @@ or
 nodemon index.js
 ```
 
+```nodejs
+node index.js 
+```
+or
+```nodejs
+nodemon index.js
+```
+
