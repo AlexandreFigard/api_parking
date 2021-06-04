@@ -12,5 +12,9 @@ or
 ```nodejs
 nodemon index.js
 ```
+or with PM2
+```nodejs
+pm2 start index.js
+```
 
 
