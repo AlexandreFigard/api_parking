@@ -2,7 +2,7 @@
 
 Ceci est une API de gestion de parking
 
-Gère la reservation et le nombre de places disponibles.
+Gère la reservation et le nombre de places disponles.
 
 
 ```nodejs
