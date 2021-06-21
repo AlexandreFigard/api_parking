@@ -12,7 +12,7 @@ app.use(express.json());
 //route pour la liste des parkings
 app.get('/parkings', (req,res) => {
  res.status(200).json(parkings);
-})
+//})
 
 // route id parkings
 app.get('/parkings/:id', (req,res) => {
@@ -27,7 +27,7 @@ app.post('/parkings', (req,res) => {
   pes.status(200).json(parkings);
 })
 
-// route put parkings
+// route put parkings 
 app.put('/parkings/:id', (req,res) => {
   const id = parseInt(req.params.id);
   let parking = parkings.find(parking => parking.id === id)
