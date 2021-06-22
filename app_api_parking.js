@@ -12,7 +12,6 @@ app.get('/parkings', (req,res) => {
  res.status(200).json(parkings);
 })
 
-
 // route id parkings
 app.get('/parkings/:id', (req,res) => {
     const id = parseInt(req.params.id); // Convertion en nombre
