@@ -21,6 +21,7 @@ app.get('/parkings/:id', (req,res) => {
     res.status(200).json(parking);
 })
 
+
 // route post parking
 app.post('/parkings', (req,res) => {
   parkings.push(req.body);
